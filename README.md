@@ -13,12 +13,12 @@ cd Task-Management
 
 Frontend (FE)
 
-cd fe
+cd frontend
 npm install # or yarn install
 
 Backend (BE)
 
-cd be
+cd backend
 npm install # or yarn install
 
 ---
@@ -27,7 +27,7 @@ npm install # or yarn install
 
 Frontend (fe/.env)
 
-BE_BASE_URL=http://localhost:5000/api
+BE_BASE_URL=http://localhost:5000/api or Production BE URL
 
 Backend (be/.env)
 
